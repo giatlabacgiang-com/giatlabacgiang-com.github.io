@@ -230,10 +230,6 @@ ol, ul {
     left: 0;
     z-index: 11;
 }
-.min_wrap {
-    width: 1170px;
-    margin: 0 auto;
-}
 .t_prod_h {
     position: relative;
     padding-bottom: 30px;
@@ -265,8 +261,11 @@ ol, ul {
 }
 .ul_prod_h > li {
     float: left;
-    width: 22%;
-    margin-right: 35px;
+    width: 23%;
+    margin-right: 29px;
+}
+.ul_prod_h > li:last-child {
+    margin-right: 0;
 }
 .in_prod_h {
     background: #fff;
@@ -325,4 +324,95 @@ ol, ul {
     bottom: 0;
     left: 0;
     z-index: 11;
+}
+.news_h .min_wrap {
+    position: relative;
+    padding: 66px 0 80px;
+    min-height: 365px;
+}
+.in_news_h {
+    background: #fff;
+    -webkit-box-shadow: 0 0 9px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 9px rgba(0,0,0,0.1);
+    box-shadow: 0 0 9px rgba(0,0,0,0.1);
+    position: relative;
+    width: 487px;
+    z-index: 1;
+}
+.t_news_h {
+    background: #0080c9;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    position: relative;
+}
+.t_news_h::before {
+    border-top: 8px solid #0080c9;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    content: "";
+    cursor: pointer;
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -8px;
+    left: 20px;
+    z-index: 1;
+}
+.icon_t_news_h {
+    display: inline-block;
+    background: url(images/icon_1.png) no-repeat;
+    width: 30px;
+    height: 28px;
+    position: relative;
+    top: 6px;
+    margin-right: 15px;
+}
+.m_news_h {
+    background: #fff;
+    overflow-y: auto;
+    padding: 0 20px;
+    max-height: 334px;
+}
+.m_news_h ul {
+    padding-left: 0;
+    list-style: none;
+}
+.m_news_h ul li {
+    padding: 13px 0 13px 15px;
+    background: url(images/icon_2.png) no-repeat left 19px;
+}
+.m_news_h ul li a {
+    color: #393939;
+}
+.adv_news_h {
+    display: block;
+    width: 680px;
+    height: auto!important;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+.ykkh {
+    position: relative;
+    background-image: url(images/bg_ykkh.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mask_ykkh {
+    padding: 15px 0;
+    position: relative;
+}
+.mask_ykkh::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
 }
