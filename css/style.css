@@ -10,6 +10,9 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+ul {
+    padding-left: 0;
+}
 #header .header-top {
     background: #0080c9;
     line-height: 40px;
