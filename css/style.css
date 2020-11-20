@@ -842,3 +842,23 @@ ol, ul {
 .ul_ct {
     padding-left: 0;
 }
+@media only screen and (max-width: 1023px) {
+    .header-top .address_header-1 {
+        display: none;
+    }
+    .navbar-nav .active::before {
+        left: 0;
+    }
+    .list-item .item {
+        margin-bottom: 17px;
+    }
+    .all-work .work-item {
+        width: 100%;
+    }
+    .f1_l {
+        width: 100%;
+    }
+    .fc_1 {
+        width: 100%;
+    }
+}
