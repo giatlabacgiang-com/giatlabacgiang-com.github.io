@@ -834,4 +834,7 @@ ol, ul {
     .fc_1 {
         width: 100%;
     }
+    .breacrum_catalogy > li > a {
+        font-size: 11px;
+    }
 }
